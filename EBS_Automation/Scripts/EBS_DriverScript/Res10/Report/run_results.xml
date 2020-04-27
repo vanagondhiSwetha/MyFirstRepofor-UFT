@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2019-11-26 06:23:56</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>b73e1e3350724b1b84808a626c9518a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2019-11-26 06:23:56</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>b73e1e3350724b1b84808a626c9518a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>File already exists</Name>
+    <ErrorText>File already exists</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\EBS_Oracle\EBS_Automation\Functional_Library\Receiving.qfl&lt;BR/&gt;Line (44): &amp;quot;          Traking_Number = randamvalue(8)&amp;amp;randamvalue(4)&amp;quot;.</Description>
+    <StartTime>2019-11-26 06:23:56</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\EBS_Oracle\EBS_Automation\Functional_Library\Receiving.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[InitializeReporter_Web]]></FunctionName>
+          <Scripts><![CDATA[fso.CreateFolder(strPath)]]></Scripts>
+          <LineNo><![CDATA[44]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\EBS\EBS_Automation\EBS-Scripts\DockReceipt_LV.vbs]]></FileName>
+          <Language><![CDATA[FuncLibExecutableUnitName]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[path=InitializeReporter_Web()]]></Scripts>
+          <LineNo><![CDATA[19]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[26]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>405a3dc46c7848d8a03100fa2c67a4d7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\EBS\EBS_Automation\EBS-Scripts\DockReceipt_LV.vbs</Description>
+    <StartTime>2019-11-26 06:24:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>b73e1e3350724b1b84808a626c9518a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-11-26 06:24:00</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>af80aee3d8a842e99b9101bc349a62fd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBSDriverScript</Name>
+    <Description />
+    <StartTime>2019-11-26 06:23:44</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ec01239347eb475d91db3e0166bb85dc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-11-26 06:23:43</StartTime>
+    <Duration>17</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>b1bc3cd0356c4fe69e108054df6b292a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBS_DriverScript</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.51</ToolVersion>
+    <ToolVersionStringLiteral>14.51</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2019-11-26 06:23:42</StartTime>
+    <Duration>18</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d50d38ef1956441c8011ecd3d9a2760a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>PRODCEAD\nt0388</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E7- 2870  @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8192</TotalMemory>
+      <HostName>cead.prd\VW76P01ATL30728</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res10</ResultName>
+    <RunStartTime>2019-11-26 06:23:42</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.51</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.51</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

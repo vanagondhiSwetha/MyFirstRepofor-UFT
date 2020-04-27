@@ -1,0 +1,2086 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-03-05 06:15:42</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e1b38cd259f429096bb16a1b0a086d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Navigator.SelectMenu</Name>
+    <Description>"File-&amp;gtSwitch Responsibility..."</Description>
+    <StartTime>2020-03-05 06:15:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+        </Path>
+        <Operation>SelectMenu</Operation>
+        <OperationData><![CDATA["File-&gtSwitch Responsibility..."]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Navigator]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Navigator</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:47</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Navigator]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Responsibilities.Select</Name>
+    <Description>"Inventory"</Description>
+    <StartTime>2020-03-05 06:15:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Responsibilities]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Inventory"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Responsibilities]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Responsibilities</Name>
+    <Description>OracleListOfValues</Description>
+    <StartTime>2020-03-05 06:15:47</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Responsibilities]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleListOfValues]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Responsibilities]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Function List.Select</Name>
+    <Description>"+  Transactions"</Description>
+    <StartTime>2020-03-05 06:15:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTabbedRegion</Type>
+            <Name><![CDATA[Functions]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleList</Type>
+            <Name><![CDATA[Function List]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["+  Transactions"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[prompt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class path]]></Name>
+            <Value><![CDATA[oracle.forms.ui.VTList;oracle.ewt.lwAWT.LWList;oracle.ewt.lwAWT.LWDataSourceList;oracle.ewt.lwAWT.LWContainer;oracle.ewt.lwAWT.LWComponent;java.awt.Container;java.awt.Component;java.lang.Object;]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>166a57341c954aca9b468e27b401b267</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Function List.Activate</Name>
+    <Description>"+  Transactions"</Description>
+    <StartTime>2020-03-05 06:15:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTabbedRegion</Type>
+            <Name><![CDATA[Functions]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleList</Type>
+            <Name><![CDATA[Function List]]></Name>
+          </Object>
+        </Path>
+        <Operation>Activate</Operation>
+        <OperationData><![CDATA["+  Transactions"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[prompt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class path]]></Name>
+            <Value><![CDATA[oracle.forms.ui.VTList;oracle.ewt.lwAWT.LWList;oracle.ewt.lwAWT.LWDataSourceList;oracle.ewt.lwAWT.LWContainer;oracle.ewt.lwAWT.LWComponent;java.awt.Container;java.awt.Component;java.lang.Object;]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>166a57341c954aca9b468e27b401b267</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Function List.Select</Name>
+    <Description>"       Subinventory Transfer"</Description>
+    <StartTime>2020-03-05 06:15:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTabbedRegion</Type>
+            <Name><![CDATA[Functions]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleList</Type>
+            <Name><![CDATA[Function List]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["       Subinventory Transfer"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[prompt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class path]]></Name>
+            <Value><![CDATA[oracle.forms.ui.VTList;oracle.ewt.lwAWT.LWList;oracle.ewt.lwAWT.LWDataSourceList;oracle.ewt.lwAWT.LWContainer;oracle.ewt.lwAWT.LWComponent;java.awt.Container;java.awt.Component;java.lang.Object;]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>166a57341c954aca9b468e27b401b267</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Functions</Name>
+    <Description>OracleTabbedRegion</Description>
+    <StartTime>2020-03-05 06:15:48</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTabbedRegion</Type>
+            <Name><![CDATA[Functions]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleTabbedRegion]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Functions]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>116d6c5b4c9c4d4eab162b7f5fadfa11</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Open.Click</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[Open]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>55b1f9a1ff96464d9dc99391284aab0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Navigator</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:48</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Navigator]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Organizations.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:15:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Organizations]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Organizations]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Organizations.Select</Name>
+    <Description>"PA1"</Description>
+    <StartTime>2020-03-05 06:15:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Organizations]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["PA1"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Organizations]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Organizations</Name>
+    <Description>OracleListOfValues</Description>
+    <StartTime>2020-03-05 06:15:51</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Organizations]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleListOfValues]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Organizations]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Subinventory Transfers.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:15:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfers]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Transaction|Type.OpenDialog</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Transaction|Type]]></Name>
+          </Object>
+        </Path>
+        <Operation>OpenDialog</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[prompt]]></Name>
+            <Value><![CDATA[Type]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Subinventory Transfers</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:52</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfers]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Transaction Types.Select</Name>
+    <Description>"Subinventory Transfer"</Description>
+    <StartTime>2020-03-05 06:15:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Transaction Types]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Subinventory Transfer"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Transaction Types]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Transaction Types</Name>
+    <Description>OracleListOfValues</Description>
+    <StartTime>2020-03-05 06:15:52</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleListOfValues</Type>
+            <Name><![CDATA[Transaction Types]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleListOfValues]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Transaction Types]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>828f95acbb6d42669c52b802c1ecd83f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Transaction|Serial-Triggered.Select</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleCheckbox</Type>
+            <Name><![CDATA[Transaction|Serial-Triggered]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>008d5d43f64b4d75b798ed9879a410e6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Transaction Lines.Click</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[Transaction Lines]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>55b1f9a1ff96464d9dc99391284aab0b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Subinventory Transfers</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:53</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfers]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Table.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:15:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Table.EnterField</Name>
+    <Description>1, "Serial Number", "356585088110887", True</Description>
+    <StartTime>2020-03-05 06:15:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>EnterField</Operation>
+        <OperationData><![CDATA[1, "Serial Number", "356585088110887", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Table.GetFieldValue</Name>
+    <Description>1, "Item"</Description>
+    <StartTime>2020-03-05 06:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetFieldValue</Operation>
+        <OperationData><![CDATA[1, "Item"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Table.GetFieldValue</Name>
+    <Description>1, "Subinventory"</Description>
+    <StartTime>2020-03-05 06:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetFieldValue</Operation>
+        <OperationData><![CDATA[1, "Subinventory"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Table.GetFieldValue</Name>
+    <Description>1, "Locator"</Description>
+    <StartTime>2020-03-05 06:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetFieldValue</Operation>
+        <OperationData><![CDATA[1, "Locator"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Table.GetFieldValue</Name>
+    <Description>1, "Serial Number"</Description>
+    <StartTime>2020-03-05 06:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetFieldValue</Operation>
+        <OperationData><![CDATA[1, "Serial Number"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[block name]]></Name>
+            <Value><![CDATA[Table]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7126aafebf1844358017a0654f3a324d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Subinventory Transfer.SelectMenu</Name>
+    <Description>"File-&amp;gtSave"</Description>
+    <StartTime>2020-03-05 06:15:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+        </Path>
+        <Operation>SelectMenu</Operation>
+        <OperationData><![CDATA["File-&gtSave"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Subinventory Transfer.PressToolbarButton</Name>
+    <Description>"Clear Record"</Description>
+    <StartTime>2020-03-05 06:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressToolbarButton</Operation>
+        <OperationData><![CDATA["Clear Record"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Subinventory Transfer.CloseWindow</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseWindow</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Subinventory Transfer</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:54</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfer]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Subinventory Transfers.CloseWindow</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseWindow</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfers]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\Oracle\MWA\MWAClient.exe",1</Name>
+    <StartTime>2020-03-05 06:16:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>326b3c265f9046ec87a7bd04eb06b45d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Subinventory Transfers</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-03-05 06:15:58</StartTime>
+    <Duration>9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Subinventory Transfers]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Subinventory Transfers]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8ca782bfe4f1401d8c2bd96d05bf3a21</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Oracle Mobile.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:16:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Oracle Mobile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e222c9ae98304f808ece8807daf1f9db</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Site:.Set</Name>
+    <Description>"My Site 1"</Description>
+    <StartTime>2020-03-05 06:16:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Site:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["My Site 1"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Site:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Host Name:.Set</Name>
+    <Description>"msp0lerpm001.etdbw.com"</Description>
+    <StartTime>2020-03-05 06:16:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Host Name:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["msp0lerpm001.etdbw.com"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Host Name:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Host Name:.PressKey</Name>
+    <Description>"micReturn", ""</Description>
+    <StartTime>2020-03-05 06:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Host Name:]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressKey</Operation>
+        <OperationData><![CDATA["micReturn", ""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Host Name:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Port:.Set</Name>
+    <Description>"10800"</Description>
+    <StartTime>2020-03-05 06:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Port:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["10800"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Port:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Port:.PressKey</Name>
+    <Description>"micReturn", ""</Description>
+    <StartTime>2020-03-05 06:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Port:]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressKey</Operation>
+        <OperationData><![CDATA["micReturn", ""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Port:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Default(st).DblClick</Name>
+    <Description>36, 8, "LEFT"</Description>
+    <StartTime>2020-03-05 06:16:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Default(st)]]></Name>
+          </Object>
+        </Path>
+        <Operation>DblClick</Operation>
+        <OperationData><![CDATA[36, 8, "LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Default]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>84f65fafdac8429b849dae7c4e3ab6b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>User Name.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:16:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[User Name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[User Name]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>User Name.Set</Name>
+    <Description>"NT0388"</Description>
+    <StartTime>2020-03-05 06:16:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[User Name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["NT0388"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[User Name]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>User Name.PressKey</Name>
+    <Description>"micReturn", ""</Description>
+    <StartTime>2020-03-05 06:16:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[User Name]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressKey</Operation>
+        <OperationData><![CDATA["micReturn", ""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[User Name]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Password.Set</Name>
+    <Description>"Oracle1234"</Description>
+    <StartTime>2020-03-05 06:16:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Password]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Oracle1234"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Password.PressKey</Name>
+    <Description>"micReturn", ""</Description>
+    <StartTime>2020-03-05 06:16:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Password]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressKey</Operation>
+        <OperationData><![CDATA["micReturn", ""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>YK1 Bulk Order Fulfillment.DblClick</Name>
+    <Description>101, 13, "LEFT"</Description>
+    <StartTime>2020-03-05 06:16:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[YK1 Bulk Order Fulfillment]]></Name>
+          </Object>
+        </Path>
+        <Operation>DblClick</Operation>
+        <OperationData><![CDATA[101, 13, "LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[YK1 Bulk Order Fulfillment 2 MSCA]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>84f65fafdac8429b849dae7c4e3ab6b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LPN Transactions(st).DblClick</Name>
+    <Description>46, 6, "LEFT"</Description>
+    <StartTime>2020-03-05 06:16:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[LPN Transactions(st)]]></Name>
+          </Object>
+        </Path>
+        <Operation>DblClick</Operation>
+        <OperationData><![CDATA[46, 6, "LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[LPN Transactions]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>84f65fafdac8429b849dae7c4e3ab6b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Pack(st).DblClick</Name>
+    <Description>43, 12, "LEFT"</Description>
+    <StartTime>2020-03-05 06:16:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Pack(st)]]></Name>
+          </Object>
+        </Path>
+        <Operation>DblClick</Operation>
+        <OperationData><![CDATA[43, 12, "LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Pack]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>84f65fafdac8429b849dae7c4e3ab6b8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Org Code ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-03-05 06:16:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[[ Org Code ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Org Code ].Set</Name>
+    <Description>"PA1"</Description>
+    <StartTime>2020-03-05 06:16:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[[ Org Code ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["PA1"]]></OperationData>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Org Code ].PressKey</Name>
+    <Description>"micReturn", ""</Description>
+    <StartTime>2020-03-05 06:16:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[[ Org Code ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>PressKey</Operation>
+        <OperationData><![CDATA["micReturn", ""]]></OperationData>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>To LPN.Set</Name>
+    <Description>"TESTQALPN30671328"</Description>
+    <StartTime>2020-03-05 06:16:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[To LPN]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TESTQALPN30671328"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[To LPN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Sub.Set</Name>
+    <Description>""</Description>
+    <StartTime>2020-03-05 06:16:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Sub]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Sub]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Loc.Set</Name>
+    <Description>""</Description>
+    <StartTime>2020-03-05 06:16:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Loc]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Loc]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Item.Set</Name>
+    <Description>""</Description>
+    <StartTime>2020-03-05 06:16:22</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Item]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Item]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Qty.Set</Name>
+    <Description>"1"</Description>
+    <StartTime>2020-03-05 06:16:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Qty]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["1"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Qty]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SN.Set</Name>
+    <Description>"356585088110887"</Description>
+    <StartTime>2020-03-05 06:16:34</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[SN]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["356585088110887"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[SN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SN</Name>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"SN"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;JavaEdit).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;to_class = JavaEdit&lt;br&gt;Attached Text = SN&lt;br&gt;</Description>
+    <StartTime>2020-03-05 06:16:34</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[SN]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"SN"&nbsp;(of&nbsp;class&nbsp;JavaEdit).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[SN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>456e644f7ed94fdbbf2f0e3106d7a1ad</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\EBS_Oracle\EBS_Automation\EBS-Scripts\Receiving_YK_WS.vbs</Description>
+    <StartTime>2020-03-05 06:16:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9e1b38cd259f429096bb16a1b0a086d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-03-05 06:16:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>4b100bf9b5ac44f1a1836cb647af1252</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Oracle Mobile</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2020-03-05 06:16:07</StartTime>
+    <Duration>27</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Oracle Mobile]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Oracle Mobile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e222c9ae98304f808ece8807daf1f9db</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBSDriverScript</Name>
+    <Description />
+    <StartTime>2020-03-05 06:15:33</StartTime>
+    <Duration>61</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>eacb32ece090417cad20c10531641d29</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-03-05 06:16:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>84df9f5db20a44a190666d65de01c6c1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBS_DriverScript</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.51</ToolVersion>
+    <ToolVersionStringLiteral>14.51</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-03-05 06:15:31</StartTime>
+    <Duration>63</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d1d4ed674546447a9c3a04eba63ea6c1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>PRODCEAD\nt0388</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E7- 2870  @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8192</TotalMemory>
+      <HostName>cead.prd\VW76P01ATL30728</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1024</ResultName>
+    <RunStartTime>2020-03-05 06:15:31</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.51</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.51</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

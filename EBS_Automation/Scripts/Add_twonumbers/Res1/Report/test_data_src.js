@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\EBS_Oracle\\EBS_Automation\\Scripts\\Add_twonumbers\\Res1',namePairs:[]}]};

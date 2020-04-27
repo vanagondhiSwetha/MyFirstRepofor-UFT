@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2019-12-04 07:35:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>a1ca3873af1248879115c01fc9b31f16</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2019-12-04 07:35:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>a1ca3873af1248879115c01fc9b31f16</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'objWorksheet'</Name>
+    <ErrorText>Object required: 'objWorksheet'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\EBS_Oracle\EBS_Automation\Functional_Library\Common_Functions.qfl&lt;BR/&gt;Line (45): &amp;quot;	Set IE= CreateObject(&amp;quot;InternetExplorer.Application&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2019-12-04 07:36:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\EBS_Oracle\EBS_Automation\Functional_Library\Common_Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[RunStatus = objWorksheet.Cells(j, 1).Value]]></Scripts>
+          <LineNo><![CDATA[45]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[26]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>ff9e321b5eae48fb87de30fd58265237</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\EBS_Oracle\EBS_Automation\EBS-Scripts\Receiving_YK_WS_Damaged_All.vbs</Description>
+    <StartTime>2019-12-04 07:36:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>a1ca3873af1248879115c01fc9b31f16</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-12-04 07:36:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>bc78cccffae547328244fd74d90387f0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBSDriverScript</Name>
+    <Description />
+    <StartTime>2019-12-04 07:34:46</StartTime>
+    <Duration>132</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e4c4d8868abf46cf9fdc1ae4a3536cc8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-12-04 07:34:46</StartTime>
+    <Duration>132</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>2c669434184d4c03814c7a96486833c9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBS_DriverScript</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.51</ToolVersion>
+    <ToolVersionStringLiteral>14.51</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2019-12-04 07:34:40</StartTime>
+    <Duration>138</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>738e24903d354e28b8f51a9857692cb1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>PRODCEAD\nt0388</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E7- 2870  @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8192</TotalMemory>
+      <HostName>cead.prd\VW76P01ATL30728</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res106</ResultName>
+    <RunStartTime>2019-12-04 07:34:40</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.51</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.51</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

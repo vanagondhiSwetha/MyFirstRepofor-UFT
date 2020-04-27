@@ -1,0 +1,3261 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:33:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order Details|LPN_2.Enter</Name>
+    <Description>"1525015923", True</Description>
+    <StartTime>2020-02-27 05:33:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Order Details|LPN_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1525015923", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_QF_LPN_NO_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Enter Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:16</StartTime>
+    <Duration>15</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>AIZ Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:33:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2.Enter</Name>
+    <Description>"85267275353924039560", True</Description>
+    <StartTime>2020-02-27 05:33:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["85267275353924039560", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:33:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("SIMNumber_2").Enter SimNumber]]></Scripts>
+          <LineNo><![CDATA[104]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\21694c5e-252b-4b43-a601-1970adc2afd3.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2.Enter</Name>
+    <Description>"821789026", True</Description>
+    <StartTime>2020-02-27 05:33:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["821789026", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:31</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:33:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ReturnTrackingNumber1_2").Enter TrackingNumber1]]></Scripts>
+          <LineNo><![CDATA[105]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d03687f8-7b1c-4524-bf59-72e9ee80d892.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2.Enter</Name>
+    <Description>"1.5", True</Description>
+    <StartTime>2020-02-27 05:33:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1.5", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:36</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:33:38</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ItemWeight_2").Enter "1.5"]]></Scripts>
+          <LineNo><![CDATA[108]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\13971e29-5ee1-493a-a477-0707ebbe9c61.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:33:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:38</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleButton&lt;br&gt;developer name = CONTROL_BLK_GET_LABEL_BTN_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:33:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleButton("GetLabel_2").Click]]></Scripts>
+          <LineNo><![CDATA[109]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1b6abbd0-3a44-45d3-a6e6-ea295e124294.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BinNumber_2.Enter</Name>
+    <Description>"FIN1", True</Description>
+    <StartTime>2020-02-27 05:33:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[BinNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["FIN1", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_BIN_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ShipConfirm_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:33:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[ShipConfirm_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_SHIP_CONFIRM_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:41</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:33:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order Details|LPN_2.Enter</Name>
+    <Description>"1525015924", True</Description>
+    <StartTime>2020-02-27 05:33:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Order Details|LPN_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1525015924", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_QF_LPN_NO_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Enter Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:45</StartTime>
+    <Duration>14</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>AIZ Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:33:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2.Enter</Name>
+    <Description>"69417834274134214730", True</Description>
+    <StartTime>2020-02-27 05:34:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["69417834274134214730", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:33:59</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("SIMNumber_2").Enter SimNumber]]></Scripts>
+          <LineNo><![CDATA[104]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\92ebe169-406c-4d04-be39-0c7302238704.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2.Enter</Name>
+    <Description>"158224769", True</Description>
+    <StartTime>2020-02-27 05:34:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["158224769", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:00</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:03</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ReturnTrackingNumber1_2").Enter TrackingNumber1]]></Scripts>
+          <LineNo><![CDATA[105]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\67e107e3-7ef4-4d0d-bed3-1ef109328872.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2.Enter</Name>
+    <Description>"1.5", True</Description>
+    <StartTime>2020-02-27 05:34:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1.5", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:03</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:06</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ItemWeight_2").Enter "1.5"]]></Scripts>
+          <LineNo><![CDATA[108]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\baf7678c-3593-4961-ad89-fc57eff535dc.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:34:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:06</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleButton&lt;br&gt;developer name = CONTROL_BLK_GET_LABEL_BTN_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:08</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleButton("GetLabel_2").Click]]></Scripts>
+          <LineNo><![CDATA[109]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2ecdd05f-6858-49c8-b870-7e9b39763ccc.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BinNumber_2.Enter</Name>
+    <Description>"FIN1", True</Description>
+    <StartTime>2020-02-27 05:34:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[BinNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["FIN1", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_BIN_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ShipConfirm_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:34:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[ShipConfirm_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_SHIP_CONFIRM_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:08</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:34:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order Details|LPN_2.Enter</Name>
+    <Description>"1525015925", True</Description>
+    <StartTime>2020-02-27 05:34:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Order Details|LPN_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1525015925", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_QF_LPN_NO_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Enter Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:12</StartTime>
+    <Duration>14</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>AIZ Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:34:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2.Enter</Name>
+    <Description>"11897641121567489105", True</Description>
+    <StartTime>2020-02-27 05:34:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["11897641121567489105", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:26</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:27</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("SIMNumber_2").Enter SimNumber]]></Scripts>
+          <LineNo><![CDATA[104]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\247aa81e-9c9e-4d01-8ed0-c2c6d18b941e.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2.Enter</Name>
+    <Description>"229124426", True</Description>
+    <StartTime>2020-02-27 05:34:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["229124426", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:27</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:30</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ReturnTrackingNumber1_2").Enter TrackingNumber1]]></Scripts>
+          <LineNo><![CDATA[105]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d4741edb-3293-4dd5-a191-85dd95a1a86f.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2.Enter</Name>
+    <Description>"1.5", True</Description>
+    <StartTime>2020-02-27 05:34:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1.5", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:30</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ItemWeight_2").Enter "1.5"]]></Scripts>
+          <LineNo><![CDATA[108]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bbbca353-1b1c-48d4-975f-75cf0caae35b.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:34:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:32</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleButton&lt;br&gt;developer name = CONTROL_BLK_GET_LABEL_BTN_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleButton("GetLabel_2").Click]]></Scripts>
+          <LineNo><![CDATA[109]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8a00940a-24d9-42e8-a03c-42b2317d3efd.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BinNumber_2.Enter</Name>
+    <Description>"FIN1", True</Description>
+    <StartTime>2020-02-27 05:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[BinNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["FIN1", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_BIN_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ShipConfirm_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:34:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[ShipConfirm_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_SHIP_CONFIRM_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:34</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:34:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order Details|LPN_2.Enter</Name>
+    <Description>"1525015926", True</Description>
+    <StartTime>2020-02-27 05:34:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Order Details|LPN_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1525015926", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_QF_LPN_NO_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Enter Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:38</StartTime>
+    <Duration>14</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>AIZ Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:34:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2.Enter</Name>
+    <Description>"43042850339478678155", True</Description>
+    <StartTime>2020-02-27 05:34:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["43042850339478678155", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:52</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:52</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("SIMNumber_2").Enter SimNumber]]></Scripts>
+          <LineNo><![CDATA[104]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\cb8fcd35-4718-4d59-9f4e-62418405c158.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2.Enter</Name>
+    <Description>"761156381", True</Description>
+    <StartTime>2020-02-27 05:34:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["761156381", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:52</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:55</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ReturnTrackingNumber1_2").Enter TrackingNumber1]]></Scripts>
+          <LineNo><![CDATA[105]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\baf30192-affa-4d5f-9a4a-968be0c3931a.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2.Enter</Name>
+    <Description>"1.5", True</Description>
+    <StartTime>2020-02-27 05:34:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1.5", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:55</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ItemWeight_2").Enter "1.5"]]></Scripts>
+          <LineNo><![CDATA[108]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\049146c1-04f4-4a71-85ca-bf90b86ebbaf.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:34:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:57</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleButton&lt;br&gt;developer name = CONTROL_BLK_GET_LABEL_BTN_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:34:59</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleButton("GetLabel_2").Click]]></Scripts>
+          <LineNo><![CDATA[109]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\96fffe1f-83f2-4a23-ba2c-b482e08cf25c.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BinNumber_2.Enter</Name>
+    <Description>"FIN1", True</Description>
+    <StartTime>2020-02-27 05:35:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[BinNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["FIN1", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_BIN_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ShipConfirm_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:35:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[ShipConfirm_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_SHIP_CONFIRM_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:34:59</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:35:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order Details|LPN_2.Enter</Name>
+    <Description>"1525015927", True</Description>
+    <StartTime>2020-02-27 05:35:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[Order Details|LPN_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1525015927", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_QF_LPN_NO_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Enter Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:03</StartTime>
+    <Duration>15</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[Enter Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[Enter Shipping Transaction]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>AIZ Shipping Transaction.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-02-27 05:35:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2.Enter</Name>
+    <Description>"85894435630591272533", True</Description>
+    <StartTime>2020-02-27 05:35:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["85894435630591272533", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:18</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SIMNumber_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:35:19</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("SIMNumber_2").Enter SimNumber]]></Scripts>
+          <LineNo><![CDATA[104]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[SIMNumber_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_SIM_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\de7cd0e3-a115-48a5-8cea-13a8e9a04c7f.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2.Enter</Name>
+    <Description>"103215698", True</Description>
+    <StartTime>2020-02-27 05:35:22</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["103215698", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:19</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ReturnTrackingNumber1_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:35:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ReturnTrackingNumber1_2").Enter TrackingNumber1]]></Scripts>
+          <LineNo><![CDATA[105]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ReturnTrackingNumber1_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_RETURN_TRACKING_NUMBER1_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0da2436d-22bd-44d2-955a-295e5882b9b6.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2.Enter</Name>
+    <Description>"1.5", True</Description>
+    <StartTime>2020-02-27 05:35:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["1.5", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:23</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ItemWeight_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleTextField&lt;br&gt;developer name = XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:35:27</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleTextField("ItemWeight_2").Enter "1.5"]]></Scripts>
+          <LineNo><![CDATA[108]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[ItemWeight_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_NET_WEIGHT_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9641bcb6-fe64-4923-91fb-7fbda96a0d27.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:35:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:28</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>GetLabel_2</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = OracleButton&lt;br&gt;developer name = CONTROL_BLK_GET_LABEL_BTN_0&lt;br&gt;</Description>
+    <StartTime>2020-02-27 05:35:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[EBSDriverScript]]></ModuleName>
+          <FileName><![CDATA[EBSDriverScript]]></FileName>
+          <Language><![CDATA[EBSDriverScript]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[OracleFormWindow("AIZ Shipping Transaction").OracleButton("GetLabel_2").Click]]></Scripts>
+          <LineNo><![CDATA[109]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[GetLabel_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_GET_LABEL_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\eb6593b6-9231-4552-92e8-0bed1e3c706e.jpeg" highlight="0,0,943,491" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BinNumber_2.Enter</Name>
+    <Description>"FIN1", True</Description>
+    <StartTime>2020-02-27 05:35:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleTextField</Type>
+            <Name><![CDATA[BinNumber_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Enter</Operation>
+        <OperationData><![CDATA["FIN1", True]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[XXAIZ_SHIP_TXN_HDR_BLK_BIN_NUMBER_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a06ea5480d78418fa7bb070677c44318</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ShipConfirm_2.Click</Name>
+    <Description />
+    <StartTime>2020-02-27 05:35:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+          <Object>
+            <Type>OracleButton</Type>
+            <Name><![CDATA[ShipConfirm_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[developer name]]></Name>
+            <Value><![CDATA[CONTROL_BLK_SHIP_CONFIRM_BTN_0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>95d60cb4297b454fa4b8580f378a9bb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AIZ Shipping Transaction</Name>
+    <Description>OracleFormWindow</Description>
+    <StartTime>2020-02-27 05:35:31</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\EBS_Oracle\EBS_Automation\OR\Oracle_EBS.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>OracleFormWindow</Type>
+            <Name><![CDATA[AIZ Shipping Transaction]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[OracleFormWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[short title]]></Name>
+            <Value><![CDATA[AIZ Shipping Transaction.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3bc2db560cae4ffd84c72b64a326974e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBSDriverScript</Name>
+    <Description />
+    <StartTime>2020-02-27 05:33:15</StartTime>
+    <Duration>142</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ecb8700c9a964cf3ae821fd633c54d4b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EBS_DriverScript</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.51</ToolVersion>
+    <ToolVersionStringLiteral>14.51</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-02-27 05:33:11</StartTime>
+    <Duration>147</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>60357ed47aa3452cad528229f5405115</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>PRODCEAD\nt0388</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E7- 2870  @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8192</TotalMemory>
+      <HostName>cead.prd\VW76P01ATL30728</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1002</ResultName>
+    <RunStartTime>2020-02-27 05:33:11</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.51</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.51</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
